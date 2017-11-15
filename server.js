@@ -9,7 +9,7 @@ app.get('/', function(req, res){
 });
 
 app.listen(PORT, IP, function(){
-  console.log(`App listening on port ${PORT}!`)
+  console.log(`App listening on port ${IP} : ${PORT}!`)
 });
 
 
